@@ -1,227 +1,207 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
     <link rel="shortcut icon" href="images/yt.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Youtube</title>
   </head>
+
   <body>
-    <nav class="navbar">
-      <div class="logo">
-        <i class="material-icons">menu</i>
-        <img src="images/logo.png" alt="ftyoutube" width="150px" />
-      </div>
-      <div class="pesquisa">
-        <input type="search" />
-        <i class="material-icons ip">search</i>
-        <i class="material-icons">mic</i>
-      </div>
-      <div class="icons">
-        <i class="material-icons">video_call</i>
-        <i class="material-icons">apps</i>
-        <i class="material-icons">notification_add</i>
-        <img src="images/logomarca.png" alt="logocodi" width="40px" />
-      </div>
-    </nav>
+    <header class="header-bg">
+      <nav class="navbar container">
+        <div class="logo">
+          <li class="material-icons">menu</li>
+          <img
+            src="https://logosmarcas.net/wp-content/uploads/2020/04/YouTube-S%C3%ADmbolo.jpg"
+            alt="ftyoutube"
+          />
+        </div>
+        <div class="pesquisa">
+          <input type="search" placeholder="pesquisar" />
+          <li class="material-icons ip">search</li>
+          <li class="material-icons">mic</li>
+        </div>
+        <div class="icons">
+          <li class="material-icons">video_call</li>
+          <li class="material-icons">apps</li>
+          <li class="material-icons">notification_add</li>
+          <img src="images/logomarca.png" alt="logocodi" width="20px" />
+        </div>
+      </nav>
+    </header>
 
-    <main>
-      <div class="sidebar">
-        <div class="links">
-          <div class="icon">
-            <a href=""><i class="material-icons">home</i> <span>Home</span></a>
-          </div>
-          <div class="icon">
-            <a href=""
-              ><i class="material-icons">explore</i> <span>Explorar</span></a
-            >
-          </div>
-          <div class="icon aux2">
-            <a href=""
-              ><i class="material-icons">subscriptions</i>
-              <span>Inscrições</span></a
-            >
-          </div>
+    <main class="mainGrid">
+      <article class="sidebar-bg">
+        <div class="sidebar">
+          <ul>
+            <li>Inicio</li>
+            <li>Shorts</li>
+          </ul>
+          <ul>
+            <li><h4>Inscrições</h4></li>
+            <li>CodiAcademy</li>
+            <li>Curso Em Video</li>
+            <li>Alura</li>
+            <li>Udemy</li>
+            <li>Mostrar Mais</li>
+          </ul>
+          <ul>
+            <li><h4>Voce ></h4></li>
+            <li>Seu Canal</li>
+            <li>Historico</li>
+            <li>Playlist</li>
+            <li>Assistir Mais Tarde</li>
+            <li>Videos com "Gostei"</li>
+            <li>Seus Videos</li>
+            <li>Downloads</li>
+          </ul>
+          <ul>
+            <li><h4>Mais do Youtube</h4></li>
+            <li>Youtube Premium</li>
+            <li>Youtube Music</li>
+            <li>Youtube Kids</li>
+          </ul>
+          <ul>
+            <li><h4>Explorar</h4></li>
+            <li>Shopping</li>
+            <li>Musica</li>
+            <li>Filmes</li>
+            <li>Mostrar Mais</li>
+            <li>Historico</li>
+          </ul>
         </div>
-        <div class="links links_2">
-          <div class="icon">
-            <a href=""
-              ><i class="material-icons">video_library</i>
-              <span>Biblioteca</span></a
-            >
-          </div>
-          <div class="icon">
-            <a href=""
-              ><i class="material-icons">history</i> <span>Histórico</span></a
-            >
-          </div>
-          <div class="icon">
-            <a href=""
-              ><i class="material-icons">watch_later</i>
-              <span>Assistir mais tarde</span></a
-            >
-          </div>
-          <div class="icon aux1">
-            <a href=""
-              ><i class="material-icons">thumb_up</i
-              ><span>Videos marcados</span></a
-            >
-          </div>
-        </div>
-        <div class="links links_3">
-          <h4>Inscrições</h4>
-          <div class="icon">
-            <a href=""
-              ><i class="material-icons">audiotrack</i> <span>Músicas</span></a
-            >
-          </div>
-          <div class="icon">
-            <a href=""
-              ><i class="material-icons">emoji_events</i>
-              <span>Esporte</span></a
-            >
-          </div>
-          <div class="icon">
-            <a href=""
-              ><i class="material-icons">sports_esports</i>
-              <span>Gaming</span></a
-            >
-          </div>
-          <div class="icon">
-            <a href=""
-              ><i class="material-icons">movie</i> <span>Cinema</span></a
-            >
-          </div>
-        </div>
-      </div>
+      </article>
 
-      <div class="content">
-        <div class="container">
-          <div class="card">
-            <div class="card-header">
-              <img src="images/thumb1.jpg" alt="card1" />
+      <section class="containerMain">
+        <div class="content">
+          <div class="container">
+            <div class="card">
+              <div class="card-header">
+                <img src="images/thumb1.jpg" alt="card1" />
+              </div>
+              <div class="card-body">
+                <img src="images/logomarca.png" alt="logocodi" />
+                <span>Aprenda Python AGORA com esse vídeo</span>
+              </div>
+              <div class="card-footer">
+                <p>Codi Academy</p>
+                <p>290 visualizações 2 horas atrás</p>
+              </div>
             </div>
-            <div class="card-body">
-              <img src="images/logomarca.png" alt="logocodi" />
-              <span>Aprenda Python AGORA com esse vídeo</span>
+          </div>
+          <div class="container">
+            <div class="card">
+              <div class="card-header">
+                <img src="images/thumb1.jpg" alt="card1" />
+              </div>
+              <div class="card-body">
+                <img src="images/logomarca.png" alt="logocodi" />
+                <span>Aprenda Python AGORA com esse vídeo</span>
+              </div>
+              <div class="card-footer">
+                <p>Codi Academy</p>
+                <p>290 visualizações 2 horas atrás</p>
+              </div>
             </div>
-            <div class="card-footer">
-              <p>Codi Academy</p>
-              <p>290 visualizações 2 horas atrás</p>
+          </div>
+          <div class="container">
+            <div class="card">
+              <div class="card-header">
+                <img src="images/thumb1.jpg" alt="card1" />
+              </div>
+              <div class="card-body">
+                <img src="images/logomarca.png" alt="logocodi" />
+                <span>Aprenda Python AGORA com esse vídeo</span>
+              </div>
+              <div class="card-footer">
+                <p>Codi Academy</p>
+                <p>290 visualizações 2 horas atrás</p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="card">
+              <div class="card-header">
+                <img src="images/thumb1.jpg" alt="card1" />
+              </div>
+              <div class="card-body">
+                <img src="images/logomarca.png" alt="logocodi" />
+                <span>Aprenda Python AGORA com esse vídeo</span>
+              </div>
+              <div class="card-footer">
+                <p>Codi Academy</p>
+                <p>290 visualizações 2 horas atrás</p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="card">
+              <div class="card-header">
+                <img src="images/thumb1.jpg" alt="card1" />
+              </div>
+              <div class="card-body">
+                <img src="images/logomarca.png" alt="logocodi" />
+                <span>Aprenda Python AGORA com esse vídeo</span>
+              </div>
+              <div class="card-footer">
+                <p>Codi Academy</p>
+                <p>290 visualizações 2 horas atrás</p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="card">
+              <div class="card-header">
+                <img src="images/thumb1.jpg" alt="card1" />
+              </div>
+              <div class="card-body">
+                <img src="images/logomarca.png" alt="logocodi" />
+                <span>Aprenda Python AGORA com esse vídeo</span>
+              </div>
+              <div class="card-footer">
+                <p>Codi Academy</p>
+                <p>290 visualizações 2 horas atrás</p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="card">
+              <div class="card-header">
+                <img src="images/thumb1.jpg" alt="card1" />
+              </div>
+              <div class="card-body">
+                <img src="images/logomarca.png" alt="logocodi" />
+                <span>Aprenda Python AGORA com esse vídeo</span>
+              </div>
+              <div class="card-footer">
+                <p>Codi Academy</p>
+                <p>290 visualizações 2 horas atrás</p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="card">
+              <div class="card-header">
+                <img src="images/thumb1.jpg" alt="card1" />
+              </div>
+              <div class="card-body">
+                <img src="images/logomarca.png" alt="logocodi" />
+                <span>Aprenda Python AGORA com esse vídeo</span>
+              </div>
+              <div class="card-footer">
+                <p>Codi Academy</p>
+                <p>290 visualizações 2 horas atrás</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="container">
-          <div class="card">
-            <div class="card-header">
-              <img src="images/thumb1.jpg" alt="card1" />
-            </div>
-            <div class="card-body">
-              <img src="images/logomarca.png" alt="logocodi" />
-              <span>Aprenda Python AGORA com esse vídeo</span>
-            </div>
-            <div class="card-footer">
-              <p>Codi Academy</p>
-              <p>290 visualizações 2 horas atrás</p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="card">
-            <div class="card-header">
-              <img src="images/thumb1.jpg" alt="card1" />
-            </div>
-            <div class="card-body">
-              <img src="images/logomarca.png" alt="logocodi" />
-              <span>Aprenda Python AGORA com esse vídeo</span>
-            </div>
-            <div class="card-footer">
-              <p>Codi Academy</p>
-              <p>290 visualizações 2 horas atrás</p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="card">
-            <div class="card-header">
-              <img src="images/thumb1.jpg" alt="card1" />
-            </div>
-            <div class="card-body">
-              <img src="images/logomarca.png" alt="logocodi" />
-              <span>Aprenda Python AGORA com esse vídeo</span>
-            </div>
-            <div class="card-footer">
-              <p>Codi Academy</p>
-              <p>290 visualizações 2 horas atrás</p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="card">
-            <div class="card-header">
-              <img src="images/thumb1.jpg" alt="card1" />
-            </div>
-            <div class="card-body">
-              <img src="images/logomarca.png" alt="logocodi" />
-              <span>Aprenda Python AGORA com esse vídeo</span>
-            </div>
-            <div class="card-footer">
-              <p>Codi Academy</p>
-              <p>290 visualizações 2 horas atrás</p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="card">
-            <div class="card-header">
-              <img src="images/thumb1.jpg" alt="card1" />
-            </div>
-            <div class="card-body">
-              <img src="images/logomarca.png" alt="logocodi" />
-              <span>Aprenda Python AGORA com esse vídeo</span>
-            </div>
-            <div class="card-footer">
-              <p>Codi Academy</p>
-              <p>290 visualizações 2 horas atrás</p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="card">
-            <div class="card-header">
-              <img src="images/thumb1.jpg" alt="card1" />
-            </div>
-            <div class="card-body">
-              <img src="images/logomarca.png" alt="logocodi" />
-              <span>Aprenda Python AGORA com esse vídeo</span>
-            </div>
-            <div class="card-footer">
-              <p>Codi Academy</p>
-              <p>290 visualizações 2 horas atrás</p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="card">
-            <div class="card-header">
-              <img src="images/thumb1.jpg" alt="card1" />
-            </div>
-            <div class="card-body">
-              <img src="images/logomarca.png" alt="logocodi" />
-              <span>Aprenda Python AGORA com esse vídeo</span>
-            </div>
-            <div class="card-footer">
-              <p>Codi Academy</p>
-              <p>290 visualizações 2 horas atrás</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      </section>
     </main>
   </body>
 </html>

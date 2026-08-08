@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1920px;
+  list-style-type: none;
+  text-transform: none;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 1rem;
+  background: #0f0f0f;
+}

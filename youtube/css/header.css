@@ -1,0 +1,46 @@
+.header-bg {
+  background: #0f0f0f;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  align-items: center;
+  color: white;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 0.5rem;
+  padding: 18px 14px 18px 14px;
+}
+
+.navbar .logo img {
+  width: 93px;
+  height: 40px;
+}
+
+.navbar .pesquisa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 0.5rem;
+}
+
+.navbar input {
+  border-radius: 1rem;
+  width: 484px;
+  height: 24px;
+  padding: 1rem;
+}
+
+.navbar .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 0.5rem;
+}

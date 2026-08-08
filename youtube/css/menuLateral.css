@@ -1,0 +1,23 @@
+.sidebar {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 0.5rem;
+  padding: 0 0.75rem 0 0.75rem;
+  justify-content: center;
+  background: #0f0f0f;
+  color: white;
+}
+
+.sidebar ul {
+  padding: 0.75rem;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar ul li {
+  width: 204px;
+  height: 40px;
+  color: #f1f1f1;
+}
