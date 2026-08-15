@@ -1,0 +1,28 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-fundo: #f8edd9;
+  --cor-textoPrincipal: #01103a;
+  --cor-textoClaro: #b19f92;
+  --cor-detalhes: #919fa8;
+}
+
+.telaInicial {
+  max-width: 1940px;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 0 1.25rem;
+  background: var(--cor-fundo);
+}
+
+.temporario {
+  width: 100%;
+  height: auto;
+}
